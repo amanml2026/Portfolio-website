@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AmanK. | AI &amp; ML Engineer</title>
+    <meta name="description" content="Aman Khanal — aspiring AI Systems Engineer building intelligent, real-world machine learning projects." />
+
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+<header>
+    <h1>Aman<span class="dot">K.</span><span class="cursor"></span></h1>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
+        <ul>
+            <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-folder"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-text reveal">
+            <p class="hero-greeting eyebrow">Available for opportunities</p>
+            <h1 class="hero-name">Aman Khanal</h1>
+            <p class="hero-role" id="typing">Aspiring AI Systems Engineer</p>
+            <p class="hero-desc">
+                I design and build intelligent systems that turn data into decisions.
+                Currently pursuing the IIT Madras BS in Data Science — training models,
+                shipping projects, and sharpening the math underneath them, one commit at a time.
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">
+                    View My Work
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    Contact Me
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 6h20v12H2z"></path>
+                        <path d="M22 6l-10 7L2 6"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/amanml2026" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aman-khanal-4bb287227/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://x.com/AmanKhanal_AI" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image-wrap reveal">
+            <canvas id="neural-canvas"></canvas>
+            <span class="hero-ring"></span>
+            <div class="hero-image">
+                <img src="photo.jpeg" alt="Aman Khanal" />
+            </div>
+            <div class="float-chip chip-1"><i class="fa-solid fa-graduation-cap"></i> IITM BS Data Science</div>
+            <div class="float-chip chip-2"><i class="fa-solid fa-code-branch"></i> Building in public</div>
+        </div>
+    </section>
+
+    <div class="scroll-cue reveal"><span>Scroll</span><span class="line"></span></div>
+
+    <section class="stack-strip reveal" aria-label="Technologies I work with">
+        <div class="marquee">
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+            <span><i class="fa-solid fa-chart-line"></i> Data Science</span>
+            <span><i class="fa-solid fa-diagram-project"></i> NumPy / Pandas</span>
+            <span><i class="fa-solid fa-square-root-variable"></i> Applied Mathematics</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
+            <span><i class="fa-solid fa-code"></i> HTML / CSS / JS</span>
+            <span><i class="fa-solid fa-terminal"></i> Problem Solving</span>
+            <!-- duplicate set for seamless loop -->
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-solid fa-brain"></i> Machine Learning</span>
+            <span><i class="fa-solid fa-chart-line"></i> Data Science</span>
+            <span><i class="fa-solid fa-diagram-project"></i> NumPy / Pandas</span>
+            <span><i class="fa-solid fa-square-root-variable"></i> Applied Mathematics</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
+            <span><i class="fa-solid fa-code"></i> HTML / CSS / JS</span>
+            <span><i class="fa-solid fa-terminal"></i> Problem Solving</span>
+        </div>
+    </section>
+
+    <div class="section-head reveal">
+        <p class="eyebrow">Explore</p>
+        <h2>Where to next</h2>
+        <p>A quick map of this site — my story, what I've built, and how to reach me.</p>
+    </div>
+
+    <section class="preview-grid">
+        <div class="preview-card panel reveal">
+            <i class="fa-solid fa-user"></i>
+            <h3>About Me</h3>
+            <p>Who I am, what I'm studying, and the skills I'm building along the way.</p>
+            <a href="about.html">Read my story <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="preview-card panel reveal">
+            <i class="fa-solid fa-folder-open"></i>
+            <h3>Projects</h3>
+            <p>Hands-on work in data analysis, ML from scratch, and applied tooling.</p>
+            <a href="projects.html">See my work <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="preview-card panel reveal">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Get in Touch</h3>
+            <p>Have an idea, a role, or a question? I'd genuinely love to hear it.</p>
+            <a href="contact.html">Say hello <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="foot-links">
+        <a href="https://github.com/amanml2026" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/aman-khanal-4bb287227/" target="_blank">LinkedIn</a>
+        <a href="https://x.com/AmanKhanal_AI" target="_blank">X</a>
+    </div>
+    <hr />
+    <p>&copy; 2026 AmanK. — Built with curiosity 💙</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script>
+/* ---------- mobile nav ---------- */
+const navToggle = document.getElementById('navToggle');
+const siteNav = document.getElementById('siteNav');
+navToggle.addEventListener('click', () => siteNav.classList.toggle('open'));
+document.querySelectorAll('#siteNav a').forEach(a => a.addEventListener('click', () => siteNav.classList.remove('open')));
+
+/* ---------- back to top ---------- */
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+    toTop.classList.toggle('show', window.scrollY > 400);
+});
+toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+/* ---------- scroll reveal ---------- */
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+        if (e.isIntersecting) {
+            e.target.classList.add('is-visible');
+            io.unobserve(e.target);
+        }
+    });
+}, { threshold: 0.15 });
+revealEls.forEach(el => io.observe(el));
+
+/* ---------- typing effect ---------- */
+const words = [
+    "Aspiring AI Systems Engineer",
+    "Machine Learning Enthusiast",
+    "IITM BS Data Science Student",
+    "Lifelong Learner",
+    "Building AI Projects Every Day"
+];
+let wordIndex = 0, charIndex = 0;
+const typing = document.getElementById("typing");
+
+function type(){
+    if (charIndex < words[wordIndex].length){
+        typing.textContent += words[wordIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 90);
+    } else {
+        setTimeout(erase, 1500);
+    }
+}
+function erase(){
+    if (charIndex > 0){
+        typing.textContent = words[wordIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 45);
+    } else {
+        wordIndex = (wordIndex + 1) % words.length;
+        setTimeout(type, 400);
+    }
+}
+type();
+
+/* ---------- neural network canvas ---------- */
+const canvas = document.getElementById('neural-canvas');
+const ctx = canvas.getContext('2d');
+let w, h, nodes = [];
+const NODE_COUNT = 26;
+
+function resize(){
+    w = canvas.width = canvas.offsetWidth * devicePixelRatio;
+    h = canvas.height = canvas.offsetHeight * devicePixelRatio;
+}
+function initNodes(){
+    nodes = Array.from({ length: NODE_COUNT }, () => ({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3
+    }));
+}
+function step(){
+    ctx.clearRect(0, 0, w, h);
+    nodes.forEach(n => {
+        n.x += n.vx; n.y += n.vy;
+        if (n.x < 0 || n.x > w) n.vx *= -1;
+        if (n.y < 0 || n.y > h) n.vy *= -1;
+    });
+    for (let i = 0; i < nodes.length; i++){
+        for (let j = i + 1; j < nodes.length; j++){
+            const a = nodes[i], b = nodes[j];
+            const d = Math.hypot(a.x - b.x, a.y - b.y);
+            const maxD = w * 0.22;
+            if (d < maxD){
+                ctx.strokeStyle = `rgba(41,224,255,${(1 - d / maxD) * 0.35})`;
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.moveTo(a.x, a.y);
+                ctx.lineTo(b.x, b.y);
+                ctx.stroke();
+            }
+        }
+    }
+    nodes.forEach(n => {
+        ctx.fillStyle = 'rgba(139,125,255,0.85)';
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, 2, 0, Math.PI * 2);
+        ctx.fill();
+    });
+    requestAnimationFrame(step);
+}
+if (canvas){
+    resize();
+    initNodes();
+    step();
+    window.addEventListener('resize', () => { resize(); initNodes(); });
+}
+</script>
+
+</body>
+</html>
